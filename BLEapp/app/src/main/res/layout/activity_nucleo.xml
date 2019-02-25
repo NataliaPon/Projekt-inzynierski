@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.bleapp.Nucleo">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Wybrano\nCzujnik Nucleo Weather"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="menu"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="151dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/pom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="25dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="pomiar"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="165dp"
+        android:text="Wilgotnosciomierz"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="74dp"
+        android:text="Termometr"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/term"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="190dp"
+        android:text="Cisnieniomierz"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="189dp"
+        android:text="Czujnik\nnatezenia swiatla"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pres"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="154dp" />
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="141dp"
+        android:layout_height="93dp"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="80dp" />
+
+    <TextView
+        android:id="@+id/hum"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp" />
+
+    <TextView
+        android:id="@+id/pres2"
+        android:layout_width="160dp"
+        android:layout_height="21dp"
+        android:layout_below="@+id/pres"
+        android:layout_alignStart="@+id/pres"
+        android:layout_alignEnd="@+id/pres"
+        android:layout_marginTop="-154dp"
+        android:layout_marginEnd="0dp" />
+
+    <TextView
+        android:id="@+id/pres3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pres2"
+        android:layout_alignStart="@+id/pres"
+        android:layout_alignEnd="@+id/pres2"
+        android:layout_marginEnd="0dp" />
+
+
+</RelativeLayout>

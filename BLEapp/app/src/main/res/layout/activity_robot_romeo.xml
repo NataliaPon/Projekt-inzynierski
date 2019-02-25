@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.bleapp.RobotRomeo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Wybrano:\nRobot Romeo"
+        android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:background="@android:color/holo_red_light"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="menu"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/f" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/f"
+            android:layout_alignStart="@+id/f"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-3dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/fl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/f"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@+id/f"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/fl" />
+
+        <ImageButton
+            android:id="@+id/fr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/f"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/f"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/fr" />
+
+        <ImageButton
+            android:id="@+id/l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@+id/stop"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/l" />
+
+        <ImageButton
+            android:id="@+id/r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fr"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/stop"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/r" />
+
+        <ImageButton
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stop"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/bl"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/b" />
+
+        <ImageButton
+            android:id="@+id/br"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/b"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/br" />
+
+        <ImageButton
+            android:id="@+id/bl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l"
+            android:layout_alignStart="@+id/l"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/bl" />
+</RelativeLayout>
+</ScrollView>
